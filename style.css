@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 font: 100;
  }
  body{
-  background-color: rgb(26, 18, 34);
+  background-image: linear-gradient(rgba(8, 5, 15, 0.3),rgba(6, 2, 6, 0.7)), url(starimg.avif) ;
  }
 
  .main{
@@ -32,6 +32,10 @@ text-align: center;
  .links{
   list-style: none;
  }
+ a{
+  text-decoration: none;
+  color: azure;
+ }
  .links .link-cdn{
   padding: 2px 70px;
   border: 2px solid transparent;
@@ -40,18 +44,16 @@ text-align: center;
   border-radius: 20px;
   margin-top: 20px;
   color: azure;
-  background-color: rgb(102, 45, 160);
+background:linear-gradient(rgba(70, 29, 82, 0.3),rgba(34, 34, 19, 0.7)), url(stars.jpg);
   cursor: pointer;
  
  
  }
  
- .link-cdn:hover{
+  .link-cdn:hover{
   color: azure;
-  background-color: rgb(88, 36, 82);
-  transition:0.8s ease-in;
+  background:linear-gradient(rgba(64, 8, 168, 0.3),rgba(148, 98, 171, 0.7)), url(starimg.avif);
+transition: 4ms ease;
  }
 
 
-   
- 
