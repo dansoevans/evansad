@@ -27,6 +27,13 @@ text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 5px;
+ }
+ .my_img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px dotted rgba(228, 255, 188,0.7) ;
  }
 
  .links{
@@ -56,7 +63,6 @@ background:linear-gradient(rgba(70, 29, 82, 0.3),rgba(34, 34, 19, 0.7)), url(sta
 transition: 4ms ease;
  }
 
-
 @media (max-width:500px) {
   .links .link-cdn{
     padding: 2px 80px;
@@ -72,3 +78,4 @@ transition: 4ms ease;
    
    
    }
+}
